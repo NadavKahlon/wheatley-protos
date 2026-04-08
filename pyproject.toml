@@ -1,7 +1,7 @@
 [project]
-name = "wheatley-protos"
+name = "aperture-protos"
 version = "0.1.0"
-description = "Protobufs for Wheatley malware"
+description = "Protobufs for Aperture Command & Control"
 dependencies = ["protobuf"]
 
 [build-system]

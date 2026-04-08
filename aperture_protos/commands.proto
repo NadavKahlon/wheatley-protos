@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-package wheatley_protos.commands;
+package aperture_protos.commands;
 
 message Request {
     oneof request {

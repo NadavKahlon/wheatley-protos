@@ -2,7 +2,7 @@
 
 syntax = "proto3";
 
-package wheatley_protos.chunked_transfer;
+package aperture_protos.chunked_transfer;
 
 
 message ChunkedTransferPacket {
