@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.10)
 project(aperture_protos VERSION 0.1.0)
 
 
-find_package(Protobuf CONFIG REQUIRED)
+find_package(Protobuf REQUIRED)
 
 # Add target to compile `aperture_protos.lib` using all `.proto` files
 file(GLOB_RECURSE PROTO_FILES "${CMAKE_CURRENT_SOURCE_DIR}/*.proto")
