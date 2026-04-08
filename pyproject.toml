@@ -1,0 +1,13 @@
+[project]
+name = "wheatley-protos"
+version = "0.1.0"
+description = "Protobufs for Wheatley malware"
+dependencies = ["protobuf"]
+
+[build-system]
+requires = ["hatchling", "hatch-protobuf"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel.hooks.protobuf]
+source_dir = "."
+proto_paths = ["."]
