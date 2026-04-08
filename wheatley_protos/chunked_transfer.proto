@@ -1,0 +1,11 @@
+// Custom protocol for chunked transfer of files
+
+syntax = "proto3";
+
+package wheatley_protos.chunked_transfer;
+
+
+message ChunkedTransferPacket {
+    bool is_last = 1;
+    bytes chunk = 2;
+}
